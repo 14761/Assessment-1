@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(101, 138, 238);
+    margin: 0px;
+    width: 100%;
+}
+
+.logo{
+    max-height: 60px;
+    /* display: block; */
+    /* margin: auto; */
+}
+
+header{
+    background-color: #dbd5d5;
+    max-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation{
+    text-align: right;
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+
+.navigation a{
+    color: rgb(18, 18, 19);
+    /* display: inline-flex; */
+    padding: 10px;
+    text-decoration: none;
+    /* background-color: rgb(181, 190, 46); */
+}
+
+.navigation a:hover, .navigation a.active{
+    color: #088178;
+    transition: 0.3s ease;
+}
+
+.banner{
+    /* vh = viewport height = window height */
+    /* min-height: 50vh;  */
+    /* background-image: url("Images/tim-bechervaise-_hjsopbklZ0-unsplash.jpg"); */
+    /* to fit image inside banner box, use background-size: contain */
+    /* background-size: cover;     */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+}
+
+.banner h1{
+    text-align: center;
+    margin: 0px;
+    padding: 25vh 0px;
+    color: rgb(59, 46, 29);
+    font-size: 4em;
+    text-shadow: 0px 0px 20px #fd0000; /* x y blur color */
+}
+
+footer{
+    background-color: #111;
+    margin: 0px;
+}
+
+.socialIcons{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 20%;
+    display: flex;
+}
+
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+/* Hover effect on social media icons */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.4s;
+}
+
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    /* margin: 0px; */
+    text-align: center;
+    color: white;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
