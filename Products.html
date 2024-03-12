@@ -11,20 +11,78 @@
 
 <body>
     <header>
-        <a href="Home.html"><img class="logo" src="TeaCup.png" alt="TeaCup"></a>
+        <div class="dropdown">
+            <button class="dropbtn">
+                <a href="Home.html"><img class="logo" src="TeaCup.png" alt="TeaCup"></a>
+                <div class="dropdown-content">
+                    <a href="Home.html">Home</a>
+                    <a class="active" href="Products.html">Products</a>
+                    <a href="Services.html">Services</a>
+                    <a href="AboutUs.html">About</a>
+                <a href="ContactUs.html">Contact</a>
+                </div>
+            </button>
+        </div>
         <nav class="navigation">
             <a href="Home.html">Home</a>
             <a class="active" href="Products.html">Products</a>
-            <a href="Services.html">Services
-            <a href="AboutUs.html">About Us</a>
-            <a href="ContactUs.html">Contact Us</a>
+            <a href="Services.html">Services</a>
+            <a href="AboutUs.html">About</a>
+            <a href="ContactUs.html">Contact</a>
         </nav>
+        <form id="search-form">
+            <input type="text" name="search- keywords" id="search">
+            <button type="submit">Search</button>
+        </form>
     </header>
-    <div class="banner">
-        <h1>Welcome</h1>
-    </div>
     <main>
-        <p>Hola mundo</p>
+        <section class="products">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="TeaCup.png" alt="">
+                </div>
+                <div class="product-info">
+                    <h5>Teaspon</h5>
+                    <h6>$1000.99</h6>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="TeaCup.png" alt="">
+                </div>
+                <div class="product-info">
+                    <h5>Tea Red</h5>
+                    <h6>$1000.99</h6>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="TeaCup.png" alt="">
+                </div>
+                <div class="product-info">
+                    <h5>Tea Yellow</h5>
+                    <h6>$1050.99</h6>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="TeaCup.png" alt="">
+                </div>
+                <div class="product-info">
+                    <h5>Tea Green</h5>
+                    <h6>$10.99</h6>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="TeaCup.png" alt="">
+                </div>
+                <div class="product-info">
+                    <h5>Tea Special</h5>
+                    <h6>$1800.99</h6>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="socialIcons">
@@ -33,6 +91,12 @@
             <a href=""><i class="fa-brands fa-x"></i></a>
             <a href=""><i class="fa-brands fa-google-plus"></i></a>
             <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerNav">
+            <a href="">Blog/News</a>
+            <a href="">FAQs</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms of Use</a>
         </div>
         <div class="footerBottom">
             <p>Copyright &copy;2024; Designed by <span class="designer">Rafael Cadena</span></p>
