@@ -1,3 +1,12 @@
+:root {
+    /* --main-font: "Roboto", sans-serif; */
+    --main-color: #335C67;
+    --second-color: #FFF3B0;
+    --wine-color1: #E09F3E;
+    --wine-color2: #9E2A2B;
+    --wine-color3: #540B0E;
+}
+
 .logo{
     height: 120px;
 }
@@ -8,8 +17,9 @@
 }
 
 header{
-    background-color: #dbd5d5;
+    background-color: var(--main-color);
     /* Logo height-4px */
+    color: white;
     height: 116px;
     display: flex;
     align-items: center;
@@ -31,7 +41,7 @@ ul.menu{
 
 .navigation a{
     display: block;
-    color: rgb(18, 18, 19);
+    color: white;
     text-decoration: none;
     padding: 12px;
     font-size: 18px;
@@ -39,12 +49,13 @@ ul.menu{
 
 ul.dropdown-menu{
     position: absolute;
-    background-color: rgb(223, 223, 213);
+    background-color: var(--second-color);
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.5s;
     border-radius: 20px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
 ul.dropdown-menu>li{
@@ -54,7 +65,9 @@ ul.dropdown-menu>li{
 li.dropdown:hover > .dropdown-menu{
     max-height: 300px;
 }
-
+ul.dropdown-menu>li a {
+    color: black;
+}
 .navigation a:hover{
     color: #088178;
     transition: 0.3s ease;
@@ -119,7 +132,7 @@ li.dropdown:hover > .dropdown-menu{
         position: absolute;
         left: 110px;
         top: 0px;
-        background-color: #088178;
+        background-color: var(--second-color);
         width: 100px;
     }
 

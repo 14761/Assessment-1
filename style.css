@@ -1,19 +1,91 @@
+:root {
+    /* --main-font: "Roboto", sans-serif; */
+    --main-color: #335C67;
+    --second-color: #FFF3B0;
+    --wine-color1: #E09F3E;
+    --wine-color2: #9E2A2B;
+    --wine-color3: #540B0E;
+}
+
 body{
-    background-color: rgb(185, 128, 128);
+    background-color: var(--wine-color2);
     margin: 0px;
     width: 100%;
 }
 
-#Home{
+/* #Home{
     margin: 50px;
     display: flex;
     justify-content: space-around;
 
-}
+} */
 
 .teaBanner{
     max-width: 500px; 
     padding: 20px; 
+}
+
+.main-carousel{
+    min-width: 100%;
+    min-height: 50vh;
+}
+
+.cell{
+    width: 100%;
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+    /* background-color: var(--wine-color2); */
+}
+
+.cell:nth-child(1) {
+    background-color: var(--wine-color3);
+    background-image: url("WineBanner1.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 4em;
+}
+
+.cell:nth-child(2) {
+    background-color: var(--wine-color3);
+    background-image: url("WineBanner2.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 4em;
+}
+
+.cell:nth-child(3) {
+    background-color: var(--wine-color3);
+    background-image: url("WineBanner3.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* color: white; */
+    font-size: 4em;
+}
+
+.cell:nth-child(4) {
+    background-color: var(--wine-color3);
+    background-image: url("WineBanner4.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* color: white; */
+    font-size: 4em;
+}
+
+.cell:nth-child(5) {
+    background-color: var(--wine-color3);
+    background-image: url("WineBanner5.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* color: white; */
+    font-size: 4em;
 }
 
 .description{
@@ -52,3 +124,4 @@ body{
     width: 100%;
     text-align: center;
 }
+
