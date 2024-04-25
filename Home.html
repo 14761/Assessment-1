@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>My first Tea shop</title>
+    <title>Wine Shop</title>
     <link rel="icon" href="WineLogo.png"> <!--relation-->
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
@@ -21,82 +21,50 @@
             <div id="barMenu">
                 <a href="#"><i class="fa-solid fa-bars fa-2x"></i></a>
                 <ul class="barDropdown">
-                    <li><a href="Home.html">Home</a></li>
+                    <li><a  id="active" href="Home.html">Home</a></li>
                     <li class="bar-dropdown">
-                        <a href="#">Wine</a>
+                        <a href="wine.html">Wine</a>
                         <ul class="barDropdown-menu">
-                            <li><a href="#">Green Wine</a></li>
-                            <li><a href="#">White Wine</a></li>
-                            <li><a href="#">Wine Bags</a></li>
+                            <li><a href="wineRed.html">Red</a></li>
+                            <li><a href="wineWhite.html">White</a></li>
                         </ul>
                     </li>
-                    <li class="bar-dropdown">
-                        <a href="#">Merchandise</a>
-                        <ul class="barDropdown-menu">
-                            <li><a href="#">Winepots</a></li>
-                            <li><a href="#">Accessories</a></li>
-                            <li><a href="#">Mugs/Cups</a></li>
-                            <li><a href="#">Storage</a></li>
-                        </ul>
-                    </li>
-                    <li class="bar-dropdown">
-                        <a href="#">Gifts</a>
-                        <ul class="barDropdown-menu">
-                            <li><a href="#">Boxes</a></li>
-                            <li><a href="#">Voucher</a></li>
-                            <li><a href="#">Special</a></li>
-                        </ul> 
-                    </li>
-                    <li><a href="#">Sale</a></li>
+                    <li><a href="cider.html">Cider</a></li>
+                    <li><a href="merchandise.html">Merchandise</a></li>
+                    <li><a href="gifts.html">Gifts</a></li>
                     <li class="bar-dropdown">
                         <a href="#">More</a>
                         <ul class="barDropdown-menu">
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Blog/News</a></li>
-                            <li><a href="#">FAQs</a></li>
-                            <li><a href="#">Privacy</a></li>
-                            <li><a href="#">Sitemap</a></li>
+                            <li><a href="moreContact.html">Contact</a></li>
+                            <li><a href="moreBlog.html">Blog/News</a></li>
+                            <li><a href="moreFaqs.html">FAQs</a></li>
+                            <li><a href="morePrivacy.html">Privacy</a></li>
+                            <li><a href="moreSitemap.html">Sitemap</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
             <div id="navigationMenu">
                 <ul class="menu">
-                    <li><a href="Home.html"><i class="fa-solid fa-house"></i></a></li>
+                    <li><a  id="active" href="Home.html"><i class="fa-solid fa-house"></i></a></li>
                     <li class="dropdown">
-                        <a href="#">Wine</a>
+                        <a href="wine.html">Wine</a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Green Wine</a></li>
-                            <li><a href="#">White Wine</a></li>
-                            <li><a href="#">Wine Bags</a></li>
+                            <li><a href="wineRed.html">Red</a></li>
+                            <li><a href="wineWhite.html">White</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <a href="#">Merchandise</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Winepots</a></li>
-                            <li><a href="#">Accessories</a></li>
-                            <li><a href="#">Mugs/Cups</a></li>
-                            <li><a href="#">Storage</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#">Gifts</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Boxes</a></li>
-                            <li><a href="#">Voucher</a></li>
-                            <li><a href="#">Special</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Sale</a></li>
+                    <li><a href="cider.html">Cider</a></li>
+                    <li><a href="merchandise.html">Merchandise</a></li>
+                    <li><a href="gifts.html">Gifts</a></li>
                     <li class="dropdown">
                         <a href="#">More</a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Blog/News</a></li>
-                            <li><a href="#">FAQs</a></li>
-                            <li><a href="#">Privacy</a></li>
-                            <li><a href="#">Sitemap</a></li>
+                            <li><a href="moreContact.html">Contact</a></li>
+                            <li><a href="moreBlog.html">Blog/News</a></li>
+                            <li><a href="moreFaqs.html">FAQs</a></li>
+                            <li><a href="morePrivacy.html">Privacy</a></li>
+                            <li><a href="moreSitemap.html">Sitemap</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -109,13 +77,19 @@
         </form>
     </header>
 
-    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true, "autoPlay": 4000}'>
-        <div class="cell">One</div>
-        <div class="cell">Two</div>
-        <div class="cell">Three</div>
-        <div class="cell">Four</div>
-        <div class="cell">Five</div>
+    <div class="main-carousel" data-flickity='{ "contain": true, "wrapAround": true, "autoPlay": 4000}'>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
     </div>
+
+    <main>
+        <section class="talkingWine">
+            <h1>Wine is an alcoholic beverage made from fermented grapes or other fruits. The basic process of winemaking involves crushing the fruit (usually grapes) to extract the juice, fermenting the juice with yeast to convert sugars into alcohol, and aging the resulting liquid to develop its flavors and characteristics.</h1>
+        </section>
+    </main>
 
     <footer>
         <div class="socialIcons">

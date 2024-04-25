@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+
+    <title>Wine Shop</title>
+    <link rel="icon" href="WineLogo.png"> <!--relation-->
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="style.css"> <!-- Connect with the .css file -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="Home.html"><img class="logo" src="WineLogoNOBACK.png" alt="TeaCup"></a>
+        <nav class="navigation">
+            <div id="barMenu">
+                <a href="#"><i class="fa-solid fa-bars fa-2x"></i></a>
+                <ul class="barDropdown">
+                    <li><a href="Home.html">Home</a></li>
+                    <li class="bar-dropdown">
+                        <a id="active" href="wine.html">Wine</a>
+                        <ul class="barDropdown-menu">
+                            <li><a id="active" href="wineRed.html">Red</a></li>
+                            <li><a href="wineWhite.html">White</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="cider.html">Cider</a></li>
+                    <li><a href="merchandise.html">Merchandise</a></li>
+                    <li><a href="gifts.html">Gifts</a></li>
+                    <li class="bar-dropdown">
+                        <a href="#">More</a>
+                        <ul class="barDropdown-menu">
+                            <li><a href="moreContact.html">Contact</a></li>
+                            <li><a href="moreBlog.html">Blog/News</a></li>
+                            <li><a href="moreFaqs.html">FAQs</a></li>
+                            <li><a href="morePrivacy.html">Privacy</a></li>
+                            <li><a href="moreSitemap.html">Sitemap</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="navigationMenu">
+                <ul class="menu">
+                    <li><a href="Home.html"><i class="fa-solid fa-house"></i></a></li>
+                    <li class="dropdown">
+                        <a id="active" href="wine.html">Wine</a>
+                        <ul class="dropdown-menu">
+                            <li><a id="active" href="wineRed.html">Red</a></li>
+                            <li><a href="wineWhite.html">White</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="cider.html">Cider</a></li>
+                    <li><a href="merchandise.html">Merchandise</a></li>
+                    <li><a href="gifts.html">Gifts</a></li>
+                    <li class="dropdown">
+                        <a href="#">More</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="moreContact.html">Contact</a></li>
+                            <li><a href="moreBlog.html">Blog/News</a></li>
+                            <li><a href="moreFaqs.html">FAQs</a></li>
+                            <li><a href="morePrivacy.html">Privacy</a></li>
+                            <li><a href="moreSitemap.html">Sitemap</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <form id="search-form">
+            <input type="text" name="search- keywords" id="search">
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <main>
+        <section class="wineDescription">
+            <h1>Red Wines</h1>
+            <p>Pretty straightforward stuff here - red wine is made from red grapes. Or more accurately black grapes. That is, grapes that have a dark pigmentation in their skin. The majority of colour in wine comes from the skin, and wines that are made using these grapes, and some degree of skin maceration, will end up red.</p>
+        </section>
+        <section class="products">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Wines/redWineJacob.png" alt="Wine Opener">
+                </div>
+                <div class="product-info">
+                    <h3>Jacob's Creek</h3>
+                    <h4>Double Barrel Cabernet Sauvignon</h4>
+                    <p>This Cabernet Sauvignon from Jacob's Creek introduces a complex palate, with distinctive tannins, hints of ripe olive and delicious toasty characters. Aged with a double barrel technique, this wine enjoys an added layer of depth and deliciously rich finish.</p>
+                    <h4>$ 25.99</h4>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Wines/redWineCatAmongst.png" alt="">
+                </div>
+                <div class="product-info">
+                    <h3>Cat Amongst The Pigeons</h3>
+                    <h4>Barossa Shiraz</h4>
+                    <p>If you like your Shiraz big, bold and full-bodied then you'll definitely want to throw this Cat Amongst the Pigeons. This Barossa Valley Shiraz is a heavy-hitter with layers of big flavours. Great with steak or on a chilly winter night. It's also a good one for the cellar.</p>
+                    <h4>$ 16.99</h4>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Wines/redWineJacob2.png" alt="">
+                </div>
+                <div class="product-info">
+                    <h3>Jacob's Creek</h3>
+                    <h4>Double Barrel Shiraz</h4>
+                    <p>The Barossa region is famous for its Shiraz, and here is one of the best. Jacob's Creek Double Barrel Shiraz is incredibly smooth and has a delicious mix of sweet red fruits and dark chocolate flavours.</p>
+                    <h4>$ 25.99</h4>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Wines/redWineSmallYet.png" alt="">
+                </div>
+                <div class="product-info">
+                    <h3>Small yet Mighty</h3>
+                    <h4>Mclaren Vale Shiraz</h4>
+                    <p>Mclaren Vale is known to produce shiraz grapes that are extremely small, giving them a high skin to pulp ratio. This goes on to provide an rich and complex wine with signature softness and a supple tannin finish, proving that you can infact be small, yet mighty.</p>
+                    <h4>$ 20.99</h4>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Wines/redWineTeRua.png" alt="">
+                </div>
+                <div class="product-info">
+                    <h3>Te Rua Bay</h3>
+                    <h4>Pinot Noir</h4>
+                    <p>Rua (meaning two) Marlborough is located along one of the many bays at the top of New Zealand's South Island and it's this proximity to the ocean that provides a unique climate for growing such incredible grapes. Te Rua Bay Marlborough Pinot Noir has aromas of red cherry and fresh herbs with flavours of spice and plum with smooth silky tannins.</p>
+                    <h4>$ 19.99</h4>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Wines/redWineWilliam.png" alt="">
+                </div>
+                <div class="product-info">
+                    <h3>William Light</h3>
+                    <h4>Clare Valley Shiraz</h4>
+                    <p>William Light Shiraz 750mL is a tribute to South Australia's first Surveyor-General. Produced with grapes sourced from premium quality vineyards, the nose is brimming with blackberry and plum notes. The palate is layered with cherries, chocolate and spice with well integrated oak.</p>
+                    <h4>$ 21.99</h4>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+        </section>        
+    </main>
+    
+    <footer>
+        <div class="socialIcons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-x"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerNav">
+            <a href="">Blog/News</a>
+            <a href="">FAQs</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms of Use</a>
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2024; Designed by <span class="designer">Rafael Cadena</span></p>
+        </div>
+    </footer>
+</body>
+
+</html>

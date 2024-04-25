@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+
+    <title>Wine Shop</title>
+    <link rel="icon" href="WineLogo.png"> <!--relation-->
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="style.css"> <!-- Connect with the .css file -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="Home.html"><img class="logo" src="WineLogoNOBACK.png" alt="TeaCup"></a>
+        <nav class="navigation">
+            <div id="barMenu">
+                <a href="#"><i class="fa-solid fa-bars fa-2x"></i></a>
+                <ul class="barDropdown">
+                    <li><a href="Home.html">Home</a></li>
+                    <li class="bar-dropdown">
+                        <a href="wine.html">Wine</a>
+                        <ul class="barDropdown-menu">
+                            <li><a href="wineRed.html">Red</a></li>
+                            <li><a href="wineWhite.html">White</a></li>
+                        </ul>
+                    </li>
+                    <li><a id="active" href="cider.html">Cider</a></li>
+                    <li><a href="merchandise.html">Merchandise</a></li>
+                    <li><a href="gifts.html">Gifts</a></li>
+                    <li class="bar-dropdown">
+                        <a href="#">More</a>
+                        <ul class="barDropdown-menu">
+                            <li><a href="moreContact.html">Contact</a></li>
+                            <li><a href="moreBlog.html">Blog/News</a></li>
+                            <li><a href="moreFaqs.html">FAQs</a></li>
+                            <li><a href="morePrivacy.html">Privacy</a></li>
+                            <li><a href="moreSitemap.html">Sitemap</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="navigationMenu">
+                <ul class="menu">
+                    <li><a href="Home.html"><i class="fa-solid fa-house"></i></a></li>
+                    <li class="dropdown">
+                        <a href="wine.html">Wine</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="wineRed.html">Red</a></li>
+                            <li><a href="wineWhite.html">White</a></li>
+                        </ul>
+                    </li>
+                    <li><a id="active" href="cider.html">Cider</a></li>
+                    <li><a href="merchandise.html">Merchandise</a></li>
+                    <li><a href="gifts.html">Gifts</a></li>
+                    <li class="dropdown">
+                        <a href="#">More</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="moreContact.html">Contact</a></li>
+                            <li><a href="moreBlog.html">Blog/News</a></li>
+                            <li><a href="moreFaqs.html">FAQs</a></li>
+                            <li><a href="morePrivacy.html">Privacy</a></li>
+                            <li><a href="moreSitemap.html">Sitemap</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <form id="search-form">
+            <input type="text" name="search- keywords" id="search">
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <main>
+        <section class="products">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="cidersImages/ciderSomersby.png" alt="Wine Opener">
+                </div>
+                <div class="product-info">
+                    <h3>Cider Somersby 24 X 330 ml bottles</h3>
+                    <p>Somersby Pear Somersby Pear Cider is a refreshing and crisp cider made from fermented pear juice and natural pear flavouring and its sparkling and refreshing nature makes it a perfect addition to any Sunday afternoon</p>
+                    <h4>$ 51.99</h4>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="cidersImages/ciderNapoleone.png" alt="">
+                </div>
+                <div class="product-info">
+                    <h3>Cider Napoleone & Co 24 X 330 ml bottles</h3>
+                    <p>This combination of apple varieties delivers a unique flavour and the ideal balance of acidity, sweetness and tannins. Displaying bright aromas of crisp apple with subtle vanilla and cinnamon character from some minimal oak contact, this cider is still wonderfully refreshing with a clean, dry finish</p>
+                    <h4>$ 125.99</h4>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="cidersImages/ciderMagners.png" alt="">
+                </div>
+                <div class="product-info">
+                    <h3>Cider Magners 24 X 330 ml bottles</h3>
+                    <p>Magners Original Apple Cider has a gentle, yet intense fruity flavor obtained from fresh apples with hints of oak and spicy vine fruits, spinning all over the tongue with well-rounded acidity and sweetness. Magners Original Apple Cider tastes like liquid apples served over ice, and it is The Original Irish Cider, first produced in 1935 with William Magner’s original recipe, and it is The Original Irish Cider. It’s so revitalizing!</p>
+                    <h4>$ 69.99</h4>
+                    <button type="submit">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="socialIcons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-x"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerNav">
+            <a href="">Blog/News</a>
+            <a href="">FAQs</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms of Use</a>
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2024; Designed by <span class="designer">Rafael Cadena</span></p>
+        </div>
+    </footer>
+</body>
+
+</html>

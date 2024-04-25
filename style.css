@@ -40,7 +40,7 @@ body{
 
 .cell:nth-child(1) {
     background-color: var(--wine-color3);
-    background-image: url("WineBanner1.png");
+    background-image: url("banner/WineBanner1.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@ body{
 
 .cell:nth-child(2) {
     background-color: var(--wine-color3);
-    background-image: url("WineBanner2.png");
+    background-image: url("banner/WineBanner2.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@ body{
 
 .cell:nth-child(3) {
     background-color: var(--wine-color3);
-    background-image: url("WineBanner3.png");
+    background-image: url("banner/WineBanner3.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -70,7 +70,7 @@ body{
 
 .cell:nth-child(4) {
     background-color: var(--wine-color3);
-    background-image: url("WineBanner4.png");
+    background-image: url("banner/WineBanner4.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@ body{
 
 .cell:nth-child(5) {
     background-color: var(--wine-color3);
-    background-image: url("WineBanner5.png");
+    background-image: url("banner/WineBanner5.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -94,18 +94,38 @@ body{
     justify-content: flex-end;
 }
 
+.talkingWine{
+    margin: 50px;
+}
+
+.wineDescription{
+    padding: 20px;
+}
+
+.wineDescription p{
+    color: rgb(216, 215, 215);
+}
+
+.privacyPolicy{
+    /* background-color: whitesmoke; */
+    color: antiquewhite;
+}
+
 .products{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .product-card{
-    padding: 2%;
+    padding: 10px;
     flex-grow: 1;
-    flex-basis: 15%;
+    flex-basis: 30%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-    justify-content: center;
     border-style: solid;
     border-width: 1px;
     /* border: 2px solid red; */
@@ -115,13 +135,28 @@ body{
 
 .product-image img{
     max-width: 100%;
+    height: 250px;
     border-radius: 20%;
+    /* margin: 2px; */
 }
 
 .product-info{
-    margin-top: auto;
-    border: 1px solid red;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    border: 1px solid var(--main-color);
+    width: 85%;
     text-align: center;
+}
+
+.product-info p{
+    padding: 10px;
+}
+
+.product-info button{
+    width: 50%;
+    margin: 5px;
 }
 

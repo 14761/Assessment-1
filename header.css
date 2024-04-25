@@ -77,6 +77,10 @@ ul.dropdown-menu>li a {
     display: none;
 }
 
+#active {
+    color: var(--wine-color1);
+}
+
 #search-form{
     padding: 10px;
     display: flex;
@@ -119,8 +123,12 @@ ul.dropdown-menu>li a {
     .barDropdown{
         display: none;
         position: absolute;
-        background-color: rgb(223, 223, 213);
-        
+        background-color: var(--second-color);
+        z-index: 1;
+    }
+
+    .barDropdown a{
+        color: black;
     }
 
     .bar-dropdown{
@@ -132,12 +140,12 @@ ul.dropdown-menu>li a {
         position: absolute;
         left: 110px;
         top: 0px;
-        background-color: var(--second-color);
+        background-color: antiquewhite;
         width: 100px;
     }
 
     .barDropdown-menu a{
-        color: rgb(243, 234, 234);
+        color: black;
     }
     
     #barMenu:hover > .barDropdown{
