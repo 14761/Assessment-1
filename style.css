@@ -118,44 +118,6 @@ body{
     justify-content: space-around;
 }
 
-.cell-gift{
-    width: 100%;
-    min-height: 50vh;
-    display: grid;
-    place-items: center;
-    /* background-color: var(--wine-color2); */
-}
-
-.cell-gift:nth-child(1) {
-    background-color: var(--wine-color3);
-    background-image: url("wineDecanter.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
-    font-size: 4em;
-}
-
-.cell-gift:nth-child(2) {
-    background-color: var(--wine-color3);
-    background-image: url("wineOpener.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
-    font-size: 4em;
-}
-
-.cell-gift:nth-child(3) {
-    background-color: var(--wine-color3);
-    background-image: url("wineRack.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* color: white; */
-    font-size: 4em;
-}
-
 .product-card{
     padding: 10px;
     flex-grow: 1;
@@ -197,4 +159,13 @@ body{
 .product-info button{
     width: 50%;
     margin: 5px;
+}
+
+.sitemap a{
+    text-decoration: none;
+    color: black;
+}
+
+.sitemap a:hover{
+    color: #FFF3B0;
 }
